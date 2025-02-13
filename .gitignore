@@ -12,8 +12,11 @@ dist
 dist-ssr
 *.local
 
-raw
+raw/**
 !raw/**/*.md
+!raw/img/
+!raw/img/icons
+!raw/fonts
 
 # Editor directories and files
 .vscode/*
