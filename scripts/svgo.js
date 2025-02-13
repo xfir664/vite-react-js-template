@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import SVGO from "svgo";
 import { ensureDirSync } from "fs-extra";
+import svgoConfig from "./../svgo.config.js";
 
 // Папка с исходными SVG-изображениями (включая подпапки)
 const rawDir = "./raw/img";
@@ -12,7 +13,6 @@ const outputDir = "./public/img";
 ensureDirSync(outputDir);
 
 // Загрузка конфигурации SVGO
-import svgoConfig from "./svgo.config.js";
 
 // Функция для рекурсивного чтения всех файлов в директории и её поддиректориях
 function getAllFiles(dir) {

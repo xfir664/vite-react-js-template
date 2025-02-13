@@ -8,11 +8,11 @@
     "build": "vite build && rimraf dist/img/icons",
     "lint": "eslint .",
     "preview": "vite preview",
-    "optimize:raster": "node sharp.js",
-    "optimize:vector": "node svgo.js",
-    "optimize:all": "node svgo.js && node sharp.js",
-    "create-sprite": "node sprite.js",
-    "fonts": "node convert-fonts.js"
+    "optimize:raster": "node scripts/sharp.js",
+    "optimize:vector": "node scripts/svgo.js",
+    "optimize:all": "node scripts/svgo.js && node scripts/sharp.js",
+    "create-sprite": "node scripts/sprite.js",
+    "fonts": "node scripts/convert-fonts.js"
   },
   "dependencies": {
     "react": "^19.0.0",
