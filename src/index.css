@@ -1,3 +1,27 @@
 body {
     background: #fcfcfc;
 }
+
+
+.zoom-container {
+    width: 400px;
+    /* Ширина контейнера */
+    height: 300px;
+    /* Высота контейнера */
+    overflow: hidden;
+    /* Скрыть выходящие за пределы части */
+    position: relative;
+    /* Для позиционирования увеличенного изображения */
+}
+
+.zoom-container img {
+    width: 100%;
+    /* Изображение занимает всю ширину контейнера */
+    transition: transform 0.3s ease;
+    /* Плавный переход при изменении масштаба */
+}
+
+.zoom-container:hover img {
+    transform: scale(1.5);
+    /* Увеличение изображения в 1.5 раза при наведении */
+}
