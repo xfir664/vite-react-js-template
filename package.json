@@ -40,6 +40,7 @@
     "swiper": "^11.2.3",
     "ttf2woff": "^3.0.0",
     "ttf2woff2": "^6.0.1",
+    "typescript": "^5.8.3",
     "vite": "^6.1.0",
     "vite-plugin-svgo": "^1.6.2"
   }

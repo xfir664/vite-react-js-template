@@ -76,12 +76,15 @@ devDependencies:
   ttf2woff2:
     specifier: ^6.0.1
     version: 6.0.1
+  typescript:
+    specifier: ^5.8.3
+    version: 5.8.3
   vite:
     specifier: ^6.1.0
     version: 6.1.0(sass@1.84.0)
   vite-plugin-svgo:
     specifier: ^1.6.2
-    version: 1.6.2(typescript@5.7.3)(vite@6.1.0)
+    version: 1.6.2(typescript@5.8.3)(vite@6.1.0)
 
 packages:
 
@@ -4015,8 +4018,8 @@ packages:
       reflect.getprototypeof: 1.0.10
     dev: true
 
-  /typescript@5.7.3:
-    resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
+  /typescript@5.8.3:
+    resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
@@ -4075,14 +4078,14 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite-plugin-svgo@1.6.2(typescript@5.7.3)(vite@6.1.0):
+  /vite-plugin-svgo@1.6.2(typescript@5.8.3)(vite@6.1.0):
     resolution: {integrity: sha512-y2XehQvQBe/lqA8m9T6xsgiYUSST21VJFAJKDEd5jZmX5ZJqfCA9pIJmayjYwkirCO9fPQsAyRJmR0bLZXOJ7g==}
     peerDependencies:
       typescript: '>=4.9.4'
       vite: '>=4.0.2'
     dependencies:
       svgo: 3.0.4
-      typescript: 5.7.3
+      typescript: 5.8.3
       vite: 6.1.0(sass@1.84.0)
     dev: true
 

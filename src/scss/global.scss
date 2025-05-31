@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  max-width: $width;
+}
+
+.title {
+  color: $red;
+}
